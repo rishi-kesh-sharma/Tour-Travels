@@ -16,7 +16,7 @@ const MetaInfo = () => {
                 className="h-[80px] w-[80px] object-cover md:object-contain"
               />
               <div className="flex flex-col gap-[0.5rem] md:gap-0 lg:gap-[0.5rem] justify-center ">
-                <h1 className="text-lg font-semibold">{item.title}</h1>
+                <h1 className="md:text-lg font-semibold">{item.title}</h1>
                 <p className="text-xs lg:text-sm text-gray-500">
                   {item.description}
                 </p>

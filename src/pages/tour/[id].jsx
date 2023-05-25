@@ -1,15 +1,15 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import About from "@/components/pages/about/1.jsx";
+import Tour from "../../components/pages/Tour.jsx";
 import NormalLayout from "@/components/Layouts/NormalLayout";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Page() {
   return (
-    <main className=" min-h-screen  overflow-hidden">
+    <main className=" min-h-screen  overflow-hidden ">
       <NormalLayout>
-        <About />
+        <Tour />
       </NormalLayout>
     </main>
   );

@@ -9,7 +9,7 @@ const bg = "https://htmldesigntemplates.com/html/travelin/images/bg/bg1.jpg";
 
 const Banner = ({ title, breadCrumbs }) => {
   return (
-    <Section className="pt-[3rem] bg-[url(https://htmldesigntemplates.com/html/travelin/images/bg/bg1.jpg)] after:bg-no-repeat after:opacity-[0.2] after:bg-cover h-[80vh]  max-h-[500px]">
+    <Section className="pt-[3rem] bg-[url(https://htmldesigntemplates.com/html/travelin/images/bg/bg1.jpg)] after:bg-no-repeat after:opacity-[0.2] after:bg-cover h-[80vh]  max-h-[500px] overflow-hidden">
       <Container className="flex  items-center justify-center flex-col h-full gap-[2rem] ">
         <h1 className="text-gray-100 text-[2rem] font-semibold">{title}</h1>
         <ul className="flex gap-[1rem]">

@@ -1851,3 +1851,272 @@ export const site4MetaData = [
       "We are here to help, before, during, and even after your trip.",
   },
 ];
+
+// faqs
+export const faqs = [
+  {
+    question: "What are the benefits of digital marketing? ",
+    answer:
+      " Digital marketing offers numerous benefits, including increased brand visibility, the ability to target specific audiences, cost-effectiveness, real-time data and insights, and the ability to measure and adjust campaigns in realtime.",
+  },
+  {
+    question: "What are some common digital marketing channels? ",
+    answer:
+      "Some common digital marketing channels include social media platforms such as Facebook, Twitter, and LinkedIn, search engines like Google and Bing, email marketing, mobile apps, display advertising, and content marketing through blogs, videos, and other mediums.",
+  },
+  {
+    question: "What is PPC advertising? ",
+    answer:
+      " PPC advertising stands for pay-per-click advertising, which is a type of digital advertising where advertisers pay each time a user clicks on one of their ads. This can include ads displayed on search engine results pages (SERPs) or on social media platforms like Facebook.",
+  },
+  {
+    question:
+      "How do you measure the success of a digital marketing campaign? ",
+    answer:
+      "The success of a digital marketing campaign can be measured in a variety of ways, depending on the goals of the campaign. Some common metrics include website traffic, engagement rates, conversion rates, click-through rates, and return on investment (ROI).",
+  },
+  {
+    question:
+      "How do you measure the success of a digital marketing campaign? ",
+    answer:
+      "The success of a digital marketing campaign can be measured in a variety of ways, depending on the goals of the campaign. Some common metrics include website traffic, engagement rates, conversion rates, click-through rates, and return on investment (ROI).",
+  },
+  {
+    question:
+      "How do you measure the success of a digital marketing campaign? ",
+    answer:
+      "The success of a digital marketing campaign can be measured in a variety of ways, depending on the goals of the campaign. Some common metrics include website traffic, engagement rates, conversion rates, click-through rates, and return on investment (ROI).",
+  },
+  {
+    question:
+      "How do you measure the success of a digital marketing campaign? ",
+    answer:
+      "The success of a digital marketing campaign can be measured in a variety of ways, depending on the goals of the campaign. Some common metrics include website traffic, engagement rates, conversion rates, click-through rates, and return on investment (ROI).",
+  },
+  {
+    question:
+      "How do you measure the success of a digital marketing campaign? ",
+    answer:
+      "The success of a digital marketing campaign can be measured in a variety of ways, depending on the goals of the campaign. Some common metrics include website traffic, engagement rates, conversion rates, click-through rates, and return on investment (ROI).",
+  },
+  {
+    question:
+      "How do you measure the success of a digital marketing campaign? ",
+    answer:
+      "The success of a digital marketing campaign can be measured in a variety of ways, depending on the goals of the campaign. Some common metrics include website traffic, engagement rates, conversion rates, click-through rates, and return on investment (ROI).",
+  },
+  {
+    question:
+      "How do you measure the success of a digital marketing campaign? ",
+    answer:
+      "The success of a digital marketing campaign can be measured in a variety of ways, depending on the goals of the campaign. Some common metrics include website traffic, engagement rates, conversion rates, click-through rates, and return on investment (ROI).",
+  },
+  {
+    question:
+      "How do you measure the success of a digital marketing campaign? ",
+    answer:
+      "The success of a digital marketing campaign can be measured in a variety of ways, depending on the goals of the campaign. Some common metrics include website traffic, engagement rates, conversion rates, click-through rates, and return on investment (ROI).",
+  },
+  {
+    question:
+      "How do you measure the success of a digital marketing campaign? ",
+    answer:
+      "The success of a digital marketing campaign can be measured in a variety of ways, depending on the goals of the campaign. Some common metrics include website traffic, engagement rates, conversion rates, click-through rates, and return on investment (ROI).",
+  },
+];
+
+// teams and founders
+export const team = [
+  {
+    image: Person1,
+    name: "Jane Smith",
+    designation: "CEO & Founder",
+    socials: {
+      facebook: "Facebook.com",
+      pinterest: "pinterest.com",
+      twitter: "twitter.com",
+    },
+  },
+
+  {
+    image: Person1,
+    name: "Jane Smith",
+    designation: "CEO & Founder",
+    socials: {
+      facebook: "Facebook.com",
+      pinterest: "pinterest.com",
+      twitter: "twitter.com",
+    },
+  },
+
+  {
+    image: Person1,
+    name: "Jane Smith",
+    designation: "CEO & Founder",
+    socials: {
+      facebook: "Facebook.com",
+      pinterest: "pinterest.com",
+      twitter: "twitter.com",
+    },
+  },
+
+  {
+    image: Person1,
+    name: "Jane Smith",
+    designation: "CEO & Founder",
+    socials: {
+      facebook: "Facebook.com",
+      pinterest: "pinterest.com",
+      twitter: "twitter.com",
+    },
+  },
+
+  {
+    image: Person1,
+    name: "Jane Smith",
+    designation: "CEO & Founder",
+    socials: {
+      facebook: "Facebook.com",
+      pinterest: "pinterest.com",
+      twitter: "twitter.com",
+    },
+  },
+
+  {
+    image: Person1,
+    name: "Jane Smith",
+    designation: "CEO & Founder",
+    socials: {
+      facebook: "Facebook.com",
+      pinterest: "pinterest.com",
+      twitter: "twitter.com",
+    },
+  },
+
+  {
+    image: Person1,
+    name: "Jane Smith",
+    designation: "CEO & Founder",
+    socials: {
+      facebook: "Facebook.com",
+      pinterest: "pinterest.com",
+      twitter: "twitter.com",
+    },
+  },
+
+  {
+    image: Person1,
+    name: "Jane Smith",
+    designation: "CEO & Founder",
+    socials: {
+      facebook: "Facebook.com",
+      pinterest: "pinterest.com",
+      twitter: "twitter.com",
+    },
+  },
+];
+
+// tours side bar data
+export const toursSidebarData = [
+  {
+    name: "Categories Type",
+    type: "checkbox",
+    items: [
+      {
+        total:30,
+        label: "Tours",
+        name: "tours",
+        value: "tours",
+      },
+      {
+        total:30,
+        label: "Attractions",
+        name: "attractions",
+        value: "attractions",
+      },
+      {
+        total:30,
+        label: "Day Trips",
+        name: "dayTrips",
+        value: "dayTrips",
+      },
+      {
+        total:30,
+        label: "Outdoor Activities",
+        name: "outdoorActivities",
+        value: "outdoorActivities",
+      },
+      {
+        total:30,
+        label: "Concert & Show",
+        name: "concert",
+        value: "concert",
+      },
+      {
+        total:30,
+        label: "Indoor",
+        name: "indoor",
+        value: "indoor",
+      },
+      {
+        total:30,
+        label: "Sight Seeing",
+        name: "sightSeeing",
+        value: "sightSeeing",
+      },
+      {
+        total:30,
+        label: "Travels",
+        name: "travels",
+        value: "travels",
+      },
+    ],
+  },
+  {
+    name: "Duration Type",
+    type: "checkbox",
+    items: [
+      {
+        total:30,
+        label: "Up to 1 hour",
+        value: "1hr",
+        name: "1hr",
+      },
+      {
+        total:30,
+        label: "1 to 2 hour",
+        value: "1to2hr",
+        name: "1to2hr",
+      },
+      {
+        total:30,
+        label: "2 to 4 hour",
+        value: "2to4hr",
+        name: "2to4hr",
+      },
+      {
+        total:30,
+        label: "4 to 8 hour",
+        value: "4to8hr",
+        name: "4to8hr",
+      },
+      {
+        total:30,
+        label: "8 to 1 hour",
+        value: "8to1d",
+        name: "8to1d",
+      },
+      {
+        total:30,
+        label: "1 Day to 2 Days",
+        value: "1dto2d",
+        name: "1dto2d",
+      },
+    ],
+  },
+  {
+    name: "Duration Type",
+    type: "slider",
+    items: [{ name: "price", value: 0, max: 20000, min: 0 }],
+  },
+];
