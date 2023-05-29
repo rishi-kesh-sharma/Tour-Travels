@@ -12,12 +12,12 @@ const Blog = () => {
   const blog = blogsData[0];
   return (
     <Section className="mt-[4rem] overflow-hidden w-full">
-      <Banner title={"Blogs List"} breadCrumbs={["Home", "Blogs"]} />
-      <Container className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[3rem] mt-[3rem] overflow-hidden">
+      <Banner title={"Blogs List"} breadCrumbs={["Home", "Blog"]} />
+      <Container className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-[3rem] mt-[3rem] overflow-hidden">
         <Section className="gap-[1rem] col-span-full grid grid-cols-1 md:grid-cols-2  ">
           <Image
             src={blog.image}
-            className="col-span-1 object-cover rounded-sm"
+            className="col-span-1 object-cover rounded-sm h-full"
           />
           <div className="col-span-1 ">
             <h3 className="font-semibold text-xl md:text-2xl ">{blog.title}</h3>
@@ -41,7 +41,7 @@ const Blog = () => {
         <BlogDetail />
         <Sidebar />
       </Container>
-      <AwesomePartners/>
+      <AwesomePartners />
     </Section>
   );
 };

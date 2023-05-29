@@ -17,7 +17,7 @@ const onChange = (e) => {
 
 const Sidebar = () => {
   return (
-    <Section className=" gap-[2rem] hidden md:block  overflow-hidden grid-cols-1 ">
+    <Section className=" gap-[2rem] hidden lg:block  overflow-hidden lg:grid-cols-1 xl:col-span-2">
       <h1 className="font-semibold text-lg">Search Here</h1>
 
       <div className="flex w-full mt-2">
