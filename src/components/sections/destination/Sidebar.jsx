@@ -5,31 +5,18 @@ import { Checkbox, Slider } from "antd";
 import Image from "next/image";
 import Section from "@/components/utils/Section";
 import { AiFillGooglePlusCircle, AiFillTag } from "react-icons/ai";
-import Tab from "./Tab";
 import { BiLike, BiPhone, BiUser } from "react-icons/bi";
 import { MdEmail } from "react-icons/md";
 import Person from "/public/assets/images/peoples/person1.jpg";
 import { BsFacebook, BsTwitter } from "react-icons/bs";
 import Tags from "./Tags";
-const onChange = (e) => {
-  console.log(`checked = ${e.target.checked}`);
-};
+// const onChange = (e) => {
+//   console.log(`checked = ${e.target.checked}`);
+// };
 
 const Sidebar = () => {
   return (
-    <Section className=" gap-[2rem] hidden lg:block  overflow-hidden lg:grid-cols-1 ">
-      <h1 className="font-semibold text-lg">Search Here</h1>
-
-      <div className="flex w-full mt-2">
-        <input
-          placeholder="Search your keyword here"
-          type="email"
-          className="p-[0.9rem] md:p-[1rem] rounded-l-lg outline-none text-gray-500 text-xs md:text-base border mt w-full"
-        />
-        <button className="bg-primary text-white px-[1rem] rounded-r-lg text-xs md:text-base">
-          Search
-        </button>
-      </div>
+    <Section className=" gap-[2rem] hidden lg:block  overflow-hidden lg:grid-cols-1 xl:col-span-2">
       <div className="shadow-md flex  flex-col  gap-[0.7rem] items-center p-4 border mt-3 rounded-lg">
         <Image
           src={Person}
@@ -38,22 +25,18 @@ const Sidebar = () => {
         <h2>{"Relson Dulux"}</h2>
         <ul className="flex gap-2">
           {[
-            { icon: <BsFacebook />, color: "gray" },
-            { icon: <AiFillGooglePlusCircle />, color: "" },
-            { icon: <BsTwitter />, color: "green" },
+            { icon: <BsFacebook />, color: "bg-gray-900 text-white" },
+            { icon: <AiFillGooglePlusCircle />, color: "bg-red-800 text-white" },
+            { icon: <BsTwitter />, color: "bg-green-600 text-white" },
           ].map((item, index) => {
             return (
-              <li className={`bg-${item.color}-800`} key={index}>
+              <li className={`${item.color} p-2 rounded-lg text-2xl`} key={index}>
                 {item.icon}
               </li>
             );
           })}
         </ul>
       </div>
-      <div className="mt-[2rem]">
-        <Tab />
-      </div>
-
       <div className="mt-[2rem]">
         <h2 className="text-lg font-semibold">{"All Categories"}</h2>
         <ul className="flex flex-col gap-2 mt-[1rem]">
@@ -99,6 +82,12 @@ const Sidebar = () => {
             ]}
           />
         </div>
+      </div>
+      <div className="mt-8">
+      <Image
+          src={Person}
+          className="rounded-lg object-cover  w-full "
+        />
       </div>
     </Section>
   );

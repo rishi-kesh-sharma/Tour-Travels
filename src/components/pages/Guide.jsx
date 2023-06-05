@@ -8,7 +8,7 @@ import ExcellentGuidesGrid from "../sections/guide/ExcellentGuidesGrid.jsx";
 const Guide = () => {
   return (
     <div>
-      <Banner title={"Out Guide"} breadCrumbs={["Guide", "Our Guide"]} />
+      <Banner title={"Our Guides"} breadCrumbs={["Home", "Guide"]} />
       <ExcellentGuides />
       <AboutGuide />
       <ExcellentGuidesGrid />

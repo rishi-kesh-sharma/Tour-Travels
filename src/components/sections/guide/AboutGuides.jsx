@@ -35,32 +35,36 @@ const AboutGuide = () => {
         <div className="h-full">
           <Image
             src={AboutGuideImage}
-            className="object-cover  rounded-lg h-full"
+            className="object-cover rounded-lg h-full"
           />
         </div>
-        <div className="flex flex-col flex-nowrap gap-[1rem] md:gap-[0.5rem] ">
-          <h3 className="text-primary text-lg ">Perfect Team</h3>
-          <h1 className="text-3xl font-semibold ">Our Experience Guides</h1>
-          <p className="text-xs md:text-sm md:text-gray-400 ">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
-            eligendi quod voluptas ipsam magni rem et, omnis beatae fuga
-            impedit! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Maiores ex nam in sunt nemo quod fugiat ipsa nostrum consequuntur
-            soluta. Lorem ipsum, dolor sit amet consectetur .
-          </p>
-          <p className="text-xs md:text-sm md:text-gray-400 ">
-            dipisicing elit. Enim incidunt, eaque nostrum fuga laborum culpa
-            ducimus exercitationem esse veniam fugit dicta velit minus neque ut
-            facilis magnam temporibus modi assumenda.
-          </p>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-[1rem] lg:gap-[2rem] md:gap-[0.5rem] ">
+          <div>
+            <h3 className="text-primary text-lg ">Perfect Team</h3>
+            <h1 className="text-3xl font-semibold ">Our Experience Guides</h1>
+            <p className="text-xs md:text-sm md:text-gray-400 ">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+              eligendi quod voluptas ipsam magni rem et, omnis beatae fuga
+              impedit! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Maiores ex nam in sunt nemo quod fugiat ipsa nostrum consequuntur
+              soluta. Lorem ipsum, dolor sit amet consectetur .
+            </p>
+            <p className="text-xs md:text-sm md:text-gray-400 ">
+              dipisicing elit. Enim incidunt, eaque nostrum fuga laborum culpa
+              ducimus exercitationem esse veniam fugit dicta velit minus neque
+              ut facilis magnam temporibus modi assumenda.
+            </p>
+          </div>
 
-          <div className="grid md:grid-cols-1  gap-[0.3rem] bg-white   rounded-lg items-center p-5 md:p-10 lg:p-3 ">
+          <div className="grid md:grid-cols-1 gap-6 bg-white   rounded-lg items-center p-5 md:p-10 lg:p-3 ">
             {guideMetaData.map((item) => {
               return (
                 <div className="   lg:py-[1rem] last-of-type:border-none  flex   gap-[0.5rem] ">
                   {item.icon}
                   <div>
-                    <h3 className="text-gray-700 text-base lg:text-lg">{item.title}</h3>
+                    <h3 className="text-gray-700 text-base lg:text-lg">
+                      {item.title}
+                    </h3>
                     <p className="text-xs  text-gray-400">{item.description}</p>
                   </div>
                 </div>

@@ -20,7 +20,7 @@ const EnquiryForm = () => {
       <Form className="flex flex-col gap-3">
         <div className="flex flex-col gap-1">
           <p className="text-gray-500">Full Name *</p>
-          <Field name="fullName" as={Input}  />
+          <Field name="fullName" as={Input} />
         </div>
         <div className="flex flex-col gap-1">
           <p className="text-gray-500">Email *</p>
@@ -28,7 +28,7 @@ const EnquiryForm = () => {
         </div>
         <div className="flex flex-col gap-1">
           <p className="text-gray-500">Enquiry *</p>
-          <Field name="enquiry" as={Input.TextArea}  />
+          <Field name="enquiry" as={Input.TextArea} />
         </div>
         <Button size="large" type="ghost" className="bg-primary text-white ">
           Submit Enquiry

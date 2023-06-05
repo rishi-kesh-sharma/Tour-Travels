@@ -27,6 +27,7 @@ const BookingForm = () => {
             ]}
           />
         </div>
+        
         <Button size="large" type="ghost" className="bg-primary text-white ">
           Proceed Booking
         </Button>

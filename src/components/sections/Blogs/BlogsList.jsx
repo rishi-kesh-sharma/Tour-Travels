@@ -10,7 +10,7 @@ import CardContent from "@/components/utils/CardContent";
 import { BsArrowRight, BsFillGrid3X3GapFill } from "react-icons/bs";
 const BlogsList = () => {
   return (
-    <Section className="rounded-lg  grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-[1rem] md:gap-[2rem]  lg:col-span-2 xl:col-span-3 overflow-hidden">
+    <Section className="rounded-lg  grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-[1rem] md:gap-[2rem]  lg:col-span-2 xl:col-span-2 overflow-hidden">
       <Section className="col-span-full flex gap-[1rem] md:justify-between items-center">
         <p className="text-xs md:text-sm text-gray-500">
           Showing 1-{bestTourPackagesData.length} of{" "}
