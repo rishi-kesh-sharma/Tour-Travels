@@ -1,7 +1,5 @@
-import { bestTourPackagesData, toursSidebarData } from "@/data";
 import React from "react";
 
-import { Checkbox, Slider } from "antd";
 import Image from "next/image";
 import Section from "@/components/utils/Section";
 import Place from "/public/assets/images/places/place1.jpg";
@@ -27,7 +25,7 @@ import Tags from "./Tags";
 
 const Sidebar = () => {
   return (
-    <Section className=" gap-[2rem] hidden lg:block  overflow-hidden lg:grid-cols-1 ">
+    <Section className=" gap-[2rem] hidden md:block  overflow-hidden lg:grid-cols-1 ">
       <h2 className="text-lg font-semibold">{"All Categories"}</h2>
       <ul className="flex flex-col gap-2 mt-[1rem]">
         {[

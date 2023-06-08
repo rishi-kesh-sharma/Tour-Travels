@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Inter } from "next/font/google";
 import About from "@/components/pages/about";
 import NormalLayout from "@/components/Layouts/NormalLayout";

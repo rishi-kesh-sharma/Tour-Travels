@@ -6,7 +6,7 @@ import TopDestinationsCards from "./TopDestinationsCards";
 
 const TopDestinations = () => {
   return (
-    <Section className=" mt-[1rem] md:mt-[3rem]">
+    <Section className=" mt-[3rem] md:mt-[3rem]">
       <Container>
         <Heading
           title={"Explore Top Destinations"}

@@ -1,14 +1,11 @@
-import { Button, Dropdown, Space, Tooltip } from "antd";
 import React from "react";
-import { DownOutlined, UserOutlined } from "@ant-design/icons";
-import Section from "../../utils/Section";
 import Container from "../../utils/Container";
 import CustomSelect from "../commons/CustomSelect";
 import { BiSearch } from "react-icons/bi";
-import Image from "next/image";
 import { heroOptionsListEnhanced } from "@/data";
-import CustomDatePicker from "../commons/CustomDatePicker";
 import HeroCards from "./HeroCards";
+import Section from "@/components/utils/Section";
+import CustomDatePicker from "../commons/CustomDatePicker";
 
 const Hero = () => {
   return (

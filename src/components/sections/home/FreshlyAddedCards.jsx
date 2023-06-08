@@ -4,7 +4,7 @@ import Card from "../../utils/Card";
 import { topDestinationData } from "@/data";
 import Image from "next/image";
 import Section from "../../utils/Section";
-import { Button, Rate } from "antd";
+import { Rate } from "antd";
 import CostumSlider from "@/components/utils/CustomSlider";
 import CardImage from "@/components/utils/CardImage";
 import CardContent from "@/components/utils/CardContent";
@@ -16,10 +16,7 @@ const FreshlyAddedCards = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 0,
-    // nextArrow: null,
-    // prevArrow: null,
     autoplay: true,
-    // autoplaySpeed: 4000,
     pauseOnHover: false,
     arrows: true,
   };

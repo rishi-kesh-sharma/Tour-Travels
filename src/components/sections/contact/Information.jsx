@@ -1,13 +1,13 @@
 import Container from "@/components/utils/Container";
 import React from "react";
 import { BiPhone } from "react-icons/bi";
-import { IoLocateOutline, IoLocationOutline } from "react-icons/io5";
+import { IoLocationOutline } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 
 const Information = () => {
   return (
     <Container className="flex flex-col gap-1">
-      <h2 className="font-semibold text-xl text-center">
+      <h2 className="font-semibold text-2xl md:text-3xl text-center">
         Information About Us
       </h2>
       <p className="text-sm text-gray-400 text-center max-w-[500px] mx-auto">

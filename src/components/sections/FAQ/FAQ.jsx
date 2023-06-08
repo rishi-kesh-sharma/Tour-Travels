@@ -11,7 +11,7 @@ import Heading from "../../utils/Heading";
 
 const FAQ = () => {
   return (
-    <Section className="mt-[3rem] md:mt-[1rem]">
+    <Section className="">
       <Heading
         title={"Frequently Asked Question"}
         topTitle={"FAQ"}

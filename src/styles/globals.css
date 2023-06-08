@@ -18,26 +18,6 @@ html {
 .ant-select {
   width: 100% !important;
 }
-/* .card {
-  position: relative;
-  border: 1px solid red;
-}
-.card::after {
-  position: absolute;
-  transform-origin: left;
-  height: 2px;
-  width: 200px;
-  background-color: red;
-  top: 0;
-}
-
-.card:hover::after {
-  transform: translateX(1);
-  -webkit-transform: translateX(1);
-  -moz-transform: translateX(1);
-  -ms-transform: translateX(1);
-  -o-transform: translateX(1);
-} */
 
 /* costuminzing ant datepicker */
 .ant-picker {
@@ -47,4 +27,14 @@ html {
 /* costumizing ant tabs */
 .ant-tabs {
   height: auto !important;
+}
+
+/* customizing slider */
+
+.ant-slider {
+  width: 100%;
+}
+
+.ant-btn .tour-sidebar {
+  width: 70% !important;
 }

@@ -5,7 +5,6 @@ import CostumSlider from "../../utils/CustomSlider";
 import { reviewsData } from "@/data";
 import Image from "next/image";
 import Section from "../../utils/Section";
-import ReviewHero from "/public/assets/images/ReviewHero.png";
 
 const Testimonials4Cards = () => {
   const dynamicSetting = {
@@ -16,6 +15,7 @@ const Testimonials4Cards = () => {
     slidesToScroll: 1,
     initialSlide: 0,
     arrows: false,
+    autoplay: true,
     responsive: [
       {
         breakpoint: 768,
@@ -23,7 +23,6 @@ const Testimonials4Cards = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
-          // dots: true,
         },
       },
     ],

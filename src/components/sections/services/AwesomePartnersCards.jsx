@@ -1,6 +1,5 @@
 import React from "react";
 
-import Card from "../../utils/Card";
 import CostumSlider from "../../utils/CustomSlider";
 import Image from "next/image";
 import Section from "../../utils/Section";

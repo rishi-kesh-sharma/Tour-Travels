@@ -1,5 +1,5 @@
 import React from "react";
-import AwesomePartners from "@/components/sections/home/AwesomePartners";
+import AwesomePartners from "@/components/sections/destinations/AwesomePartners";
 import Banner from "../utils/Banner.jsx";
 import AboutGuide from "../sections/guide/AboutGuides.jsx";
 import ExcellentGuides from "../sections/guide/ExcellentGuides.jsx";

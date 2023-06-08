@@ -51,7 +51,7 @@ const Hero = () => {
                 </div>
                 <p className=" text-primary font-semibold ">
                   ${item.cost}{" "}
-                  <span className="text-sm text-gray-100 font-light">
+                  <span className="text-xs text-gray-100 font-light">
                     | Per person
                   </span>
                 </p>

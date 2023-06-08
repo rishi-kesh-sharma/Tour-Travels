@@ -7,10 +7,10 @@ import ContactForm from "../sections/FAQ/ContactForm.jsx";
 
 const Testimonials = () => {
   return (
-    <div className="flex flex-col gap-10">
+    <div className="flex flex-col  gap-10">
       <Banner title={"FAQ"} breadCrumbs={["Home", "FAQ"]} />
       <FAQ />
-      <ContactForm/>
+      <ContactForm />
       <VideoSection />
       <AwesomePartners />
     </div>

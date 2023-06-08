@@ -17,7 +17,7 @@ const EnquiryForm = () => {
   });
   return (
     <Formik initialValues={initialValues} validationSchema={validationSchema}>
-      <Form className="flex flex-col gap-3">
+      <Form className="flex flex-col gap-3 pr-2">
         <div className="flex flex-col gap-1">
           <p className="text-gray-500">Full Name *</p>
           <Field name="fullName" as={Input} />

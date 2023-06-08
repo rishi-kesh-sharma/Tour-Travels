@@ -16,11 +16,11 @@ const cl = [cl1, cl2, cl3, cl4, cl5, cl6, cl7, cl8];
 
 const Reviews = () => {
   return (
-    <Section className="mt-[3rem] lg:mt-[1rem]">
+    <Section className="mt-[3rem] lg:mt-[1rem] xl:mt-[6rem]">
       <Container>
         <Heading
           title={"Good Reviews By Clients"}
-          topTitle={"Our Testimonails"}
+          topTitle={"Our Testimonials"}
           subtitle={
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim recusandae quos, ullam quasi architecto repudiandae ducimus quibusdam amet iste ea."
           }

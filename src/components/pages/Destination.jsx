@@ -10,7 +10,7 @@ import AwesomePartners from "../sections/home/AwesomePartners";
 const Destination = () => {
   const Destination = topDestinationData[0];
   return (
-    <Section className="mt-[4rem] overflow-hidden w-full">
+    <Section className="overflow-hidden w-full">
       <Banner
         title={"Bangkok - Thailand"}
         breadCrumbs={["Home", "Destination Detail"]}

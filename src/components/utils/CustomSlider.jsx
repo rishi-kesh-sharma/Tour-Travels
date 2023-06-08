@@ -9,7 +9,7 @@ function SampleNextArrow(props) {
   const { onClick } = props;
   return (
     <button
-      className="next absolute top-[45%] z-[40] left-[-0px]  md:left-[-15px]  lg:-left-[40px] bg-green-500 w-7 h-7 lg:w-12 lg:h-12  rounded-full flex justify-center items-center text-white "
+      className="next absolute top-[45%] z-[40] left-[-0px]  md:left-[-15px]  lg:-left-[40px] bg-primary w-7 h-7 lg:w-12 lg:h-12  rounded-full flex justify-center items-center text-white "
       onClick={onClick}>
       <BsArrowLeft className="relative z-40" />
     </button>
@@ -20,7 +20,7 @@ function SamplePrevArrow(props) {
   const { onClick } = props;
   return (
     <button
-      className="next absolute top-[45%] z-40 right-[0] md:right-[-15px] lg:-right-[45px]  bg-green-500 h-7 w-7 lg:w-12 lg:h-12  rounded-full flex justify-center items-center text-white"
+      className="next absolute top-[45%] z-40 right-[0] md:right-[-15px] lg:-right-[45px]  bg-primary h-7 w-7 lg:w-12 lg:h-12  rounded-full flex justify-center items-center text-white"
       onClick={onClick}>
       <BsArrowRight className="relative z-40" />
     </button>

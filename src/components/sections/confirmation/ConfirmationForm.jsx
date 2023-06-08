@@ -59,14 +59,14 @@ const ConfirmationForm = () => {
           icon={<BsPrinter />}
           size="large"
           type="ghost"
-          className="bg-primary text-white mt-3 w-5/12 flex items-center ">
+          className="bg-primary text-white mt-3 w-5/12 flex items-center max-w-[130px]">
           Print
         </Button>
         <Button
           icon={<BsSend />}
           size="large"
           type="ghost"
-          className="bg-black text-white mt-3 w-5/12 flex items-center">
+          className="bg-black text-white mt-3 w-5/12 flex items-center max-w-[130px]">
           Send To
         </Button>
       </div>

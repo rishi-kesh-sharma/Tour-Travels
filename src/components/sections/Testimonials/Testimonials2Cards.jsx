@@ -5,7 +5,6 @@ import CostumSlider from "../../utils/CustomSlider";
 import { reviewsData } from "@/data";
 import Image from "next/image";
 import Section from "../../utils/Section";
-import ReviewHero from "/public/assets/images/ReviewHero.png";
 
 const Testimonials2Cards = () => {
   const dynamicSetting = {
@@ -15,8 +14,6 @@ const Testimonials2Cards = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 0,
-    // nextArrow: null,
-    // prevArrow: null,
     autoplay: true,
     autoplaySpeed: 4000,
     pauseOnHover: false,

@@ -1,18 +1,11 @@
-import { bestTourPackagesData, toursSidebarData } from "@/data";
 import React from "react";
 
-import { Checkbox, Slider } from "antd";
 import Image from "next/image";
 import Section from "@/components/utils/Section";
-import { AiFillGooglePlusCircle, AiFillTag } from "react-icons/ai";
-import { BiLike, BiPhone, BiUser } from "react-icons/bi";
-import { MdEmail } from "react-icons/md";
+import { AiFillGooglePlusCircle } from "react-icons/ai";
 import Person from "/public/assets/images/peoples/person1.jpg";
 import { BsFacebook, BsTwitter } from "react-icons/bs";
 import Tags from "./Tags";
-// const onChange = (e) => {
-//   console.log(`checked = ${e.target.checked}`);
-// };
 
 const Sidebar = () => {
   return (
@@ -26,11 +19,16 @@ const Sidebar = () => {
         <ul className="flex gap-2">
           {[
             { icon: <BsFacebook />, color: "bg-gray-900 text-white" },
-            { icon: <AiFillGooglePlusCircle />, color: "bg-red-800 text-white" },
+            {
+              icon: <AiFillGooglePlusCircle />,
+              color: "bg-red-800 text-white",
+            },
             { icon: <BsTwitter />, color: "bg-green-600 text-white" },
           ].map((item, index) => {
             return (
-              <li className={`${item.color} p-2 rounded-lg text-2xl`} key={index}>
+              <li
+                className={`${item.color} p-2 rounded-lg text-2xl`}
+                key={index}>
                 {item.icon}
               </li>
             );
@@ -84,10 +82,7 @@ const Sidebar = () => {
         </div>
       </div>
       <div className="mt-8">
-      <Image
-          src={Person}
-          className="rounded-lg object-cover  w-full "
-        />
+        <Image src={Person} className="rounded-lg object-cover  w-full " />
       </div>
     </Section>
   );

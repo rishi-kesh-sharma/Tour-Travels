@@ -4,9 +4,7 @@ import {
   AccordionHeader,
   AccordionItem,
 } from "react-headless-accordion";
-import { faqs } from "@/data";
 import Section from "@/components/utils/Section";
-import Container from "@/components/utils/Container";
 
 const Itinerary = ({ faqs }) => {
   return (

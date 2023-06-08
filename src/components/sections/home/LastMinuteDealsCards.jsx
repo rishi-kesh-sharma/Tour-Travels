@@ -6,7 +6,6 @@ import Image from "next/image";
 import Section from "../../utils/Section";
 import { Button, Rate } from "antd";
 import CardImage from "@/components/utils/CardImage";
-import { topDestinationData } from "@/data";
 import CardContent from "@/components/utils/CardContent";
 const LastMinuteDealsCards = () => {
   const dynamicSetting = {
@@ -58,8 +57,9 @@ const LastMinuteDealsCards = () => {
                   </p>
                 </div>
                 <Button
-                  size="middle"
-                  className=" bg-primary  text-white absolute right-[0.5rem] z-30 bottom-[2rem] text-sm">
+                  size="medium"
+                  type="ghost"
+                  className=" bg-primary  text-white absolute right-[0.5rem] z-30 bottom-[2rem] text-sm hover:text-white">
                   {item.days} Days Tours
                 </Button>
                 <Image
@@ -89,7 +89,7 @@ const LastMinuteDealsCards = () => {
                 <p className="text-sm text-gray-400">{item.description}</p>
                 <div className="flex gap-[0.3rem] items-center">
                   <h2 className=" text-primary font-semibold">${item.cost} </h2>
-                  <span className="text-gray-500 text-sm">|Per Person</span>
+                  <span className="text-gray-500 text-xs">| Per Person</span>
                 </div>
               </CardContent>
             </Card>

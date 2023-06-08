@@ -211,11 +211,11 @@ const BookingForm = () => {
               Submit
             </Button>
 
-            <div className="grid col-span-full md:grid-cols-7 p-8 gap-4 bg-gray-100 rounded-lg">
-              <div className="grid bg-primary  grid-cols-1 items-center justify-items-center p-3 rounded-md ">
+            <div className="grid col-span-full md:grid-cols-4 xl:grid-cols-6 p-6 xl:p-10 gap-4 bg-gray-100 rounded-lg">
+              <div className="grid bg-primary   grid-cols-1 col-span-1 items-center justify-items-center p-3 rounded-md ">
                 <BsFillEmojiSmileFill className="text-gray-100 text-3xl" />
               </div>
-              <div className="col-span-4 flex flex-col gap-1 h-full ">
+              <div className="col-span-3 flex flex-col gap-1 h-full ">
                 <h2 className=" font-semibold">Good To Know:</h2>
                 <p className="text-gray-500 text-sm">
                   Free Cancellation until 14:00 pm !! Feb 2022
@@ -243,8 +243,8 @@ const BookingForm = () => {
                   <BiCard className="text-xl" />
                   <h2 className="font-semibold">Credit Card</h2>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-3 border border-gray-200">
-                  <div className="md:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-5">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:items-center p-3 lg:p-6 xl:p-10 rounded-lg border border-gray-200">
+                  <div className="md:col-span-2 grid grid-cols-1 lg:grid-cols-2 gap-5">
                     <div className="flex flex-col gap-1">
                       <label
                         htmlFor="carHolderNumber"
@@ -292,10 +292,10 @@ const BookingForm = () => {
                     <Image />
                   </div>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 justify-between justify-items-end mt-2">
-                  <div className="flex gap-2 text-sm text-gray-500">
+                <div className="grid grid-cols-1 lg:grid-cols-2 justify-between justify-items-end mt-5 items-center">
+                  <div className="flex gap-2 text-sm text-gray-500 items-center">
                     <Field>{({}) => <Checkbox name="hasAgreed" />}</Field>
-                    <p>
+                    <p className="text-sm">
                       {" "}
                       By continuing, you agree to the Terms and Conditions.
                     </p>
@@ -303,7 +303,7 @@ const BookingForm = () => {
                   <Button
                     type="ghost"
                     size="large"
-                    className="bg-primary text-white md:w-5/12 mt-5">
+                    className="bg-primary text-white  md:w-6/12  mt-2 lg:mt-0 lg:w-9/12 xl:w-6/12 max-w-[200px]">
                     Confirm Booking
                   </Button>
                 </div>

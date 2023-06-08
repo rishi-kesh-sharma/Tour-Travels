@@ -42,11 +42,7 @@ const Hero = () => {
             <p className="text-gray-500">Duration</p>
             <CustomSelect size="large" options={heroOptionsList[1]} />
           </div>
-          {/* <div className="grid grid-cols-2 gap-[1rem]">
-            {heroOptionsList.map((options) => {
-              return <CustomSelect options={options} size="large" />;
-            })}
-          </div> */}
+
           <div className="flex flex-col gap-2 ">
             <p className="hidden md:block text-gray-500 ">Search</p>
 

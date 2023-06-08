@@ -6,7 +6,7 @@ import FlightScheduleTable from "./FlightScheduleTable.jsx";
 
 const ScheduledFlights = () => {
   return (
-    <Section className="lg:mt-[3rem] hidden md:block">
+    <Section className="lg:mt-[3rem] hidden md:block w-full overflow-auto">
       <Container>
         <Heading
           title={"Find Your Flight Scheduled"}

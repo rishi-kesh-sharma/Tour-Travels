@@ -4,9 +4,7 @@ import Card from "../../utils/Card";
 import { topDestinationData } from "@/data";
 import Image from "next/image";
 import Section from "../../utils/Section";
-import Container from "../../utils/Container";
 import { Button } from "antd";
-import GetToKnow from "./GetToKnow";
 const TopDestinationCards = () => {
   return (
     <Section className="mt-[2rem]">

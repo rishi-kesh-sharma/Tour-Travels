@@ -1,5 +1,4 @@
 import { Progress } from "antd";
-import Item from "antd/es/list/Item";
 const items = [
   {
     title: "Cleanliness",
@@ -23,8 +22,8 @@ const items = [
   },
 ];
 const ProgressSection = () => (
-  <div className="grid grid-cols-3 gap-5">
-    <div className="h-full col-span-1 text-white bg-black flex flex-col items-center justify-center rounded-lg gap-3">
+  <div className="grid  md:grid-cols-3 gap-5">
+    <div className="h-full col-span-1 text-white bg-black flex flex-col items-center justify-center rounded-lg gap-3 p-4 md:py-0">
       <h1 className="text-center text-4xl font-semibold">2.2/5</h1>
       <h3 className="text-center text-xl font-semibold">
         "Feel so Much Worst Than Thinking"
@@ -35,10 +34,10 @@ const ProgressSection = () => (
       {items.map((item) => {
         return (
           <div>
-            <h5 className="text-gray-400">{item.title}</h5>
+            <h5 className="text-gray-400 text-sm">{item.title}</h5>
             <Progress
               strokeColor={"#029e9d"}
-              size={["100%", 20]}
+              size={["100%", 15]}
               showInfo={false}
               percent={item.percent}
             />

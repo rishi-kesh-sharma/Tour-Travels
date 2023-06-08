@@ -26,7 +26,7 @@ const Home = () => {
       <SpecialOffers />
       <ExcellentGuides />
       <Reviews />
-      <RecentBlogs />
+      <RecentBlogs  />
     </div>
   );
 };

@@ -15,10 +15,7 @@ const PopularTourCards = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 0,
-    // nextArrow: null,
-    // prevArrow: null,
     autoplay: true,
-    // autoplaySpeed: 4000,
     pauseOnHover: false,
     arrows: true,
   };

@@ -1,20 +1,18 @@
-import { Button, Dropdown, Space, Tooltip } from "antd";
 import React from "react";
 import Section from "../../utils/Section";
 import Container from "../../utils/Container";
 import Image from "next/image";
-import AboutBg from "/public/assets/images/about-bg.png";
 import { GetToKnowData, aboutData } from "@/data";
 import AboutImage from "/public/assets/images/about.jpg";
 
 const About = () => {
   return (
-    <Section className=" relative mt-[2rem] bg-gray-100 py-[2rem] md:py-[5rem] md:mb-[10rem] bg-[url(https://htmldesigntemplates.com/html/travelin/images/bg/bg-trans.png)]">
+    <Section className=" relative mt-[2rem] bg-gray-100 py-[2rem]  md:py-[5rem] mb-[20rem] md:mb-[10rem] bg-[url(https://htmldesigntemplates.com/html/travelin/images/bg/bg-trans.png)]">
       <Container className=" text-gray-600 grid md:grid-cols-2  gap-[1rem] justify-items-center items-center">
-        <div className="">
+        <div className="rounded-lg">
           <Image
             src={AboutImage}
-            className="object-contain max-h-[500px] rounded-lg"
+            className="object-contain max-h-[500px] rounded-lg xl:rounded:lg"
           />
         </div>
         <div className="flex flex-col flex-nowrap gap-[0.5rem] ">

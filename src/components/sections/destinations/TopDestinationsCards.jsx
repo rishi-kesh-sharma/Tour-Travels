@@ -5,6 +5,7 @@ import { topDestinationData } from "@/data";
 import Image from "next/image";
 import Section from "../../utils/Section";
 import { Button } from "antd";
+
 const TopDestinationCards = () => {
   return (
     <Section className="mt-[2rem]">

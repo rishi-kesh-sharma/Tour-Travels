@@ -2,8 +2,6 @@ import Container from "@/components/utils/Container";
 import Section from "@/components/utils/Section";
 import React from "react";
 import { BsFillPlayCircleFill } from "react-icons/bs";
-const overlay =
-  "https://htmldesigntemplates.com/html/travelin/images/dot-overlay.png";
 
 const VideoSection = () => {
   return (

@@ -65,9 +65,9 @@ const Navbar = () => {
                 Login/Register
               </Link>
               <Button
-                href="/book"
-                type="link"
-                className="bg-primary hover: text-gray-100 hover:bg-white ">
+                href="/booking"
+                type="ghost"
+                className="bg-primary text-gray-100  ">
                 Book Now
               </Button>
             </div>

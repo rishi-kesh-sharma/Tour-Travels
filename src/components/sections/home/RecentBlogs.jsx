@@ -6,7 +6,7 @@ import RecentBlogsCards from "./RecentBlogsCards";
 
 const RecentBlogs = () => {
   return (
-    <Section className="mt-[2rem] md:mt-[3rem]">
+    <Section className="mt-[2rem] md:mt-[3rem] xl:mt-[5rem]">
       <Container>
         <Heading
           title={"Recent Articles & Posts"}

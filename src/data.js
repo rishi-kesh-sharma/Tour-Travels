@@ -1,6 +1,3 @@
-import Link from "next/link";
-import Image from "next/image";
-
 // top header data
 import {
   BsCalendar3,
@@ -41,7 +38,6 @@ import Person1 from "../public/assets/images/peoples/person1.jpg";
 import Person2 from "../public/assets/images/peoples/person2.jpg";
 
 // plane
-import PlaneImage from "../public/assets/images/planes/plane.jpg";
 import PlaneImage1 from "../public/assets/images/planes/plane1.jpg";
 import CarImage1 from "../public/assets/images/cars/car1.png";
 import HotelRoom1 from "../public/assets/images/hotel/hotelroom.jpg";
@@ -123,8 +119,10 @@ export const nav = [
       name: "Pages",
       path: "/buy",
       dropItems: [
-        { name: "Our Guide", path: "/guides" },
+        { name: "Our Guides", path: "/guides" },
         { name: "Guide Detail", path: "/guide/1" },
+        { name: "Our Team", path: "/team" },
+
         { name: "Team Detail", path: "/team/1" },
         { name: "Booking", path: "/booking" },
         { name: "Booking Confirmation", path: "/confirmation" },
@@ -2123,7 +2121,7 @@ export const toursSidebarData = [
     ],
   },
   {
-    name: "Duration Type",
+    name: "Price",
     type: "slider",
     items: [{ name: "price", value: 0, max: 20000, min: 0 }],
   },

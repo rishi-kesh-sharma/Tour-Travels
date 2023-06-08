@@ -12,7 +12,7 @@ import ScheduledFlights from "@/components/sections/home/ScheduledFlights";
 
 const Home = () => {
   return (
-    <div>
+    <div className="">
       <Hero />
       <FlightCards />
       <FindTravel />

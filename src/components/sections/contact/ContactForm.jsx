@@ -1,12 +1,10 @@
+import React from "react";
+import { Field, Form, Formik } from "formik";
+import * as yup from "yup";
+import { Button, Input, InputNumber } from "antd";
+
 import Container from "@/components/utils/Container";
 import Section from "@/components/utils/Section";
-import { Button, Input, InputNumber } from "antd";
-import { Field, Form, Formik } from "formik";
-import React from "react";
-
-import * as yup from "yup";
-import image from "/public/assets/images/site4hero.jpg";
-import Image from "next/image";
 import CustomSelect from "../commons/CustomSelect";
 import Heading from "@/components/utils/Heading";
 
@@ -22,7 +20,7 @@ const ContactForm = () => {
     comment: yup.string().required(),
   });
   return (
-    <Section className="mt-[2rem]">
+    <Section className="">
       <Heading
         title={"Do You Have Any Questions?"}
         subtitle={

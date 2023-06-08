@@ -1,7 +1,6 @@
 import { bestTourPackagesData, toursSidebarData } from "@/data";
 import React from "react";
 
-import { Checkbox, Slider } from "antd";
 import Image from "next/image";
 import Section from "@/components/utils/Section";
 import { AiFillTag } from "react-icons/ai";

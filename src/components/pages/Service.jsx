@@ -9,7 +9,7 @@ import AwesomePartners from "../sections/service/AwesomePartners";
 
 const Service = () => {
   return (
-    <Section className="mt-[4rem] overflow-hidden w-full">
+    <Section className=" overflow-hidden w-full">
       <Banner title={"Service List"} breadCrumbs={["Home", "Service"]} />
       <Container className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-[3rem] mt-[3rem] overflow-hidden">
         <ServiceDetail />

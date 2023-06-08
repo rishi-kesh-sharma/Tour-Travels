@@ -1,5 +1,4 @@
 import Container from "@/components/utils/Container";
-import Heading from "@/components/utils/Heading";
 import Section from "@/components/utils/Section";
 import React from "react";
 import ReviewsCards from "./ReviewsCards4.jsx";
@@ -11,7 +10,6 @@ import cl5 from "/public/assets/images/cl-5.png";
 import cl6 from "/public/assets/images/cl-6.png";
 import cl7 from "/public/assets/images/cl-7.png";
 import cl8 from "/public/assets/images/cl-8.png";
-import Image from "next/image";
 const cl = [cl1, cl2, cl3, cl4, cl5, cl6, cl7, cl8];
 
 const Reviews = () => {

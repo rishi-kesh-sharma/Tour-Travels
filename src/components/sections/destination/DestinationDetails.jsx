@@ -1,26 +1,18 @@
 import React from "react";
 
-import Card from "../../utils/Card";
-import { bestTourPackagesData, topDestinationData } from "@/data";
+import { topDestinationData } from "@/data";
 import Image from "next/image";
 import Section from "../../utils/Section";
-import { Button, Rate, Select } from "antd";
-import CardImage from "@/components/utils/CardImage";
-import CardContent from "@/components/utils/CardContent";
-import { BsArrowRight, BsFillGrid3X3GapFill, BsQuote } from "react-icons/bs";
-import { BiTimeFive, BiWifi } from "react-icons/bi";
-import { FaQuoteLeft, FaUsers } from "react-icons/fa";
-import { AiOutlineHeatMap } from "react-icons/ai";
+import { Rate } from "antd";
 import { IoLocationOutline } from "react-icons/io5";
 import ReviewForm from "./ReviewForm";
 import ProgressSection from "./ProgressSection";
-// import RelatedTours from "./RelatedTours";
+
 const DestinationDetail = () => {
-  const Destination = topDestinationData[0];
   return (
     <Section className="rounded-lg   gap-[1rem] lg:col-span-2 xl:col-span-3 overflow-hidden col-span-full">
       <h1 className="font-bold text-3xl mb-1">Bangkok Thailand</h1>
-      <div className="flex gap-1 items-center mb-5">
+      <div className="flex flex-col md:flex-row gap-1 items-center mb-5">
         <IoLocationOutline className="text-gray-500 text-lg" />
         <span className="text-sm text-gray-500">
           Greater London,United Kingdom{" "}
@@ -61,10 +53,10 @@ const DestinationDetail = () => {
 
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d59592.33680120934!2d85.18748437247488!3d27.693103047769096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snp!4v1685603711813!5m2!1sen!2snp"
-          width="600"
           height="450"
           allowfullscreen=""
           loading="lazy"
+          className="rounded-lg w-full"
           referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
       <div className="mb-9">
@@ -81,10 +73,3 @@ const DestinationDetail = () => {
 };
 
 export default DestinationDetail;
-
-{
-  /* <div>
-<Rate value={4} allowHalf allowClear={false} />
-<span className="text-xs md:text-sm"> (1 Review)</span>
-</div> */
-}

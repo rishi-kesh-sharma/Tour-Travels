@@ -71,6 +71,7 @@ const columns = [
 const App = ({ data }) => (
   <Table
     size="small"
+    className="w-full overflow-auto"
     columns={columns}
     bordered
     scroll={true}
@@ -92,7 +93,7 @@ const FlightScheduleTable = () => {
   const mode = "top";
 
   return (
-    <div className="mx-auto flex flex-col items-center gap-[2rem] overflow-auto">
+    <div className="mx-auto flex flex-col w-full items-center gap-[2rem] overflow-auto pb-6 mt-6  ">
       <Tabs
         defaultActiveKey="0"
         tabPosition={mode}
@@ -100,6 +101,7 @@ const FlightScheduleTable = () => {
         animated={true}
         centered={true}
         size="small"
+        className="overflow-auto w-full "
         tabBarStyle={{ fontWeight: 400, fontSize: "1.1rem" }}
       />
       <Button size="large" type="ghost" className="bg-primary text-white ">

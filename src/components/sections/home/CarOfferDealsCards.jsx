@@ -4,9 +4,7 @@ import Card from "../../utils/Card";
 import { carData } from "@/data";
 import Image from "next/image";
 import Section from "../../utils/Section";
-import { Button, Rate } from "antd";
 import CardImage from "@/components/utils/CardImage";
-import { topDestinationData } from "@/data";
 import CardContent from "@/components/utils/CardContent";
 import { FaIndent, FaTachometerAlt, FaUser } from "react-icons/fa";
 import { BsBagCheck } from "react-icons/bs";
@@ -27,7 +25,7 @@ const LastMinuteDealsCards = () => {
   };
   return (
     <Section className="  p-[2rem] rounded-lg ">
-      <Section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-[3rem] justify-start items-start mt-[2rem] peer-[h-full]">
+      <Section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  2xl:grid-cols-4 gap-[3rem] justify-start items-start mt-[2rem] peer-[h-full]">
         {carData.map((item, index) => (
           <Card className="bg-white shadow-md cursor-pointer  border-white  hover:border-primary  border-b-2 items-start">
             <CardImage>

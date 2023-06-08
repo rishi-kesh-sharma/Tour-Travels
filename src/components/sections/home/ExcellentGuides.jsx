@@ -2,7 +2,6 @@ import Container from "@/components/utils/Container";
 import Heading from "@/components/utils/Heading";
 import Section from "@/components/utils/Section";
 import React from "react";
-import Video from "./Video";
 import ExcellentGuidesCards from "./ExcellentGuidesCards";
 
 const ExcellentGuides = () => {

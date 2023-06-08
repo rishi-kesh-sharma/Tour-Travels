@@ -4,8 +4,7 @@ import Card from "../../utils/Card";
 import { bestTourPackagesData } from "@/data";
 import Image from "next/image";
 import Section from "../../utils/Section";
-import Container from "../../utils/Container";
-import { Button, Rate } from "antd";
+import { Rate } from "antd";
 import CardImage from "@/components/utils/CardImage";
 import CustomSlider from "../../utils/CustomSlider";
 import CardContent from "@/components/utils/CardContent";
@@ -44,7 +43,7 @@ const SpecialOffersCards = () => {
                 <p className="text-sm text-gray-400">{item.description}</p>
                 <div className="flex gap-[0.3rem] items-center">
                   <h2 className="text-semibold text-primary ">${item.cost} </h2>
-                  <span className="text-gray-500">|Per Person</span>
+                  <span className="text-gray-500 text-xs">| Per Person</span>
                 </div>
               </CardContent>
             </Card>

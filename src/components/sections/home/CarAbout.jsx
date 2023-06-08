@@ -1,10 +1,9 @@
-import { Button, Dropdown, Space, Tooltip } from "antd";
 import React from "react";
 import Section from "../../utils/Section";
 import Container from "../../utils/Container";
 import Image from "next/image";
 import CarsCollection from "/public/assets/images/cars/carsCollection.png";
-import { carMetaData, aboutData } from "@/data";
+import { carMetaData } from "@/data";
 
 const About = () => {
   return (

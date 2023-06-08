@@ -6,7 +6,7 @@ import AwesomePartnersCards from "./AwesomePartnersCards.jsx";
 
 const AwesomePartners = () => {
   return (
-    <Section className="mt-[3rem] lg:mt-[2rem] ">
+    <Section className="mt-[3rem] lg:mt-[4rem] ">
       <Container>
         <Heading
           title={"Our Awesome Partners"}

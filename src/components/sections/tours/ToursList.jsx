@@ -4,13 +4,14 @@ import Card from "../../utils/Card";
 import { bestTourPackagesData } from "@/data";
 import Image from "next/image";
 import Section from "../../utils/Section";
-import { Button, Rate, Select } from "antd";
+import { Button, Rate } from "antd";
 import CardImage from "@/components/utils/CardImage";
 import CardContent from "@/components/utils/CardContent";
 import { BsArrowRight, BsFillGrid3X3GapFill } from "react-icons/bs";
+import CustomSelect from "../commons/CustomSelect";
 const ToursList = () => {
   return (
-    <Section className="rounded-lg  grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-[1rem] md:gap-[2rem]  md:col-span-2 xl:col-span-3 overflow-hidden">
+    <Section className="rounded-lg  grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-3 gap-[1rem] md:gap-[2rem]  md:col-span-2 xl:col-span-3 overflow-hidden">
       <Section className="col-span-full flex gap-[1rem] md:justify-between items-center">
         <p className="text-xs md:text-sm text-gray-500">
           Showing 1-{bestTourPackagesData.length} of{" "}
@@ -19,8 +20,8 @@ const ToursList = () => {
         <div className="flex gap-[1rem]  items-center">
           <BsFillGrid3X3GapFill className={`text-lg`} />
           <BsFillGrid3X3GapFill />
-          <Select
-            size="small"
+          <CustomSelect
+            size="middle"
             className="w-[300px]"
             animation
             options={[
@@ -43,10 +44,10 @@ const ToursList = () => {
               <Rate key={index} allowHalf defaultValue={item?.rating} />
               <span className="text-gray-500">({item?.totalTours})</span>
             </div>
-            <p className="text-sm text-gray-400">{item.description}</p>
+            <p className="text-sm text-gray-400 my-2">{item.description}</p>
             <div className="flex gap-[0.3rem] items-center">
               <h2 className=" text-primary font-semibold">${item.cost} </h2>
-              <span className="text-gray-500 text-sm">|Per Person</span>
+              <span className="text-gray-500 text-xs">| Per Person</span>
             </div>
           </CardContent>
         </Card>

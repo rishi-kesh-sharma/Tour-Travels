@@ -22,8 +22,9 @@ const getField = (type, field) => {
   if (type == "slider") {
     return (
       <Slider
+        className="mx-2"
         range
-        defaultValue={[0, 300]}
+        defaultValue={[0, 3000]}
         tooltip={{ open: true }}
         max={field.max}
         min={field.min}

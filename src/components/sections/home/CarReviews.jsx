@@ -1,10 +1,7 @@
 import Container from "@/components/utils/Container";
-import Heading from "@/components/utils/Heading";
 import Section from "@/components/utils/Section";
 import React from "react";
 import CarReviewsCards from "./CarReviewsCards.jsx";
-import { GetToKnowData } from "@/data";
-import { Button } from "antd";
 
 const Reviews = () => {
   return (

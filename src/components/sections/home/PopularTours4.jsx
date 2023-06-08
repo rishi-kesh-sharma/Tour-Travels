@@ -3,8 +3,6 @@ import Heading from "@/components/utils/Heading";
 import Section from "@/components/utils/Section";
 import React from "react";
 import PopularToursCards from "./PopularToursCards4.jsx";
-import { Button } from "antd";
-import { BsArrowRight } from "react-icons/bs";
 
 const PopularTours = () => {
   return (

@@ -1,13 +1,8 @@
-import { bestTourPackagesData, toursSidebarData } from "@/data";
 import React from "react";
-
-import { Checkbox, Slider } from "antd";
 import Image from "next/image";
 import Section from "@/components/utils/Section";
 import { AiFillGooglePlusCircle, AiFillTag } from "react-icons/ai";
 import Tab from "./Tab";
-import { BiLike, BiPhone, BiUser } from "react-icons/bi";
-import { MdEmail } from "react-icons/md";
 import Person from "/public/assets/images/peoples/person1.jpg";
 import { BsFacebook, BsTwitter } from "react-icons/bs";
 import Tags from "./Tags";

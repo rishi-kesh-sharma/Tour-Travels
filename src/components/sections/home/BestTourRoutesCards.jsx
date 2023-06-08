@@ -46,7 +46,7 @@ const BestTourRoutesCards = () => {
                 <div className="flex gap-[0.3rem] items-center">
                   <span className="text-gray-500 text-sm">From</span>
                   <h2 className="text-semibold text-primary ">${item.cost} </h2>
-                  <span className="text-gray-500 text-sm">|Per Person</span>
+                  <span className="text-gray-500 text-xs">| Per Person</span>
                 </div>
               </CardContent>
             </Card>

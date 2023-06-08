@@ -1,13 +1,13 @@
 import React from "react";
-
 import Card from "../../utils/Card";
 import { bestTourPackagesData, blogsData } from "@/data";
 import Image from "next/image";
 import Section from "../../utils/Section";
-import { Button, Rate, Select } from "antd";
+import { Button, Select } from "antd";
 import CardImage from "@/components/utils/CardImage";
 import CardContent from "@/components/utils/CardContent";
 import { BsArrowRight, BsFillGrid3X3GapFill } from "react-icons/bs";
+
 const BlogsList = () => {
   return (
     <Section className="rounded-lg  grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-[1rem] md:gap-[2rem]  lg:col-span-2 xl:col-span-2 overflow-hidden">

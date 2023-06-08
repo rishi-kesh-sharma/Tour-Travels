@@ -1,14 +1,5 @@
-import { bestTourPackagesData, toursSidebarData } from "@/data";
 import React from "react";
-
-import { Button, Checkbox, Input, Rate, Slider } from "antd";
-import Image from "next/image";
 import Section from "@/components/utils/Section";
-import { AiFillTag } from "react-icons/ai";
-import { BiLike, BiPhone, BiUser } from "react-icons/bi";
-import { MdEmail } from "react-icons/md";
-import Place from "/public/assets/images/places/place1.jpg";
-import { IoLocationOutline } from "react-icons/io5";
 const onChange = (e) => {
   console.log(`checked = ${e.target.checked}`);
 };

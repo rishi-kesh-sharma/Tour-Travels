@@ -1,10 +1,8 @@
 import { Button, Dropdown, Space, Tooltip } from "antd";
 import React from "react";
-import { DownOutlined, UserOutlined } from "@ant-design/icons";
 import Section from "../../utils/Section";
 import Container from "../../utils/Container";
 import CustomSelect from "../commons/CustomSelect";
-import DatePicker from "../commons/CustomDatePicker";
 import { BiSearch } from "react-icons/bi";
 import Image from "next/image";
 import DefaultHomeHeroImage from "/public/assets/images/defaultHome.png";

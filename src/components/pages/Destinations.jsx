@@ -1,8 +1,8 @@
 import React from "react";
 import VideoSection from "../sections/home/VideoSection";
 import Banner from "../utils/Banner";
-import AwesomePartners from "../sections/home/AwesomePartners";
 import TopDestinations from "../sections/destinations/TopDestinations";
+import AwesomePartners from "../sections/destinations/AwesomePartners";
 
 const Home = () => {
   return (

@@ -10,9 +10,9 @@ const FindTravelCards = () => {
     <Section className="md:mt-[2rem]">
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4   ">
         {findTravelData.map((item, index) => (
-          <div className=" p-5 group">
+          <div className=" p-5 ">
             <Card
-              className="   justify-center cursor-pointer shadow-md transition-all  hover:bg-primary hover:text-gray-100 gap-0"
+              className="group justify-center cursor-pointer shadow-md transition-all  hover:bg-primary hover:text-gray-100 gap-0"
               item={item}
               key={index}>
               <p className="text-6xl">{item.icon}</p>

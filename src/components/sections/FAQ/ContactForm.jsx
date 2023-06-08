@@ -22,7 +22,7 @@ const ContactForm = () => {
     comment: yup.string().required(),
   });
   return (
-    <Section className="mt-[2rem]">
+    <Section className="">
       <Heading
         title={"Do You Have Any Questions?"}
         subtitle={

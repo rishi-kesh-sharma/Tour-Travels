@@ -36,7 +36,7 @@ const NavLinks = ({ links, handleNavLinksClick }) => {
                     aria-controls="dropdown-example"
                     data-collapse-toggle="dropdown-example">
                     <span
-                      class="flex-1  text-left whitespace-nowrap"
+                      class="flex-1 text-sm  text-left whitespace-nowrap"
                       sidebar-toggle-item>
                       {item.name}
                     </span>
@@ -54,7 +54,7 @@ const NavLinks = ({ links, handleNavLinksClick }) => {
                   </button>
                   <ul
                     id="dropdown-example"
-                    className="hidden absolute bg-white left-0 w-[200px] top-[2.5rem] rounded-lg overflow-hidden  shadow-md">
+                    className="hidden absolute bg-white left-0 w-[200px] text-sm top-[2.5rem] rounded-lg overflow-hidden  shadow-md">
                     {item.dropItems.map((dropItem) => {
                       return (
                         <li
@@ -62,7 +62,7 @@ const NavLinks = ({ links, handleNavLinksClick }) => {
                           className="border border-solid border-gray-100">
                           <Link
                             href={dropItem.path}
-                            className="flex items-center w-full p-2 text-base font-normal text-gray-600 transition duration-75 rounded-lg pl-[1rem] group  dark:text-white dark:hover:bg-gray-700">
+                            className="flex items-center text-sm w-full p-2  font-normal text-gray-600 transition duration-75 rounded-lg pl-[1rem] group  dark:text-white dark:hover:bg-gray-700">
                             {dropItem.name}
                           </Link>
                         </li>

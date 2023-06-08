@@ -12,7 +12,7 @@ const Team = () => {
   return (
     <Section className="mt-[2rem] md:mt-[5rem]">
         <h1 className="text-center text-xl md:text-3xl font-semibold"> Team & Founders</h1>
-      <Container className="grid md:grid-cols-2 lg;grid-cols-4 gap-[1rem] md:gap-[2rem] mt-[2rem]">
+      <Container className="grid md:grid-cols-2 lg:grid-cols-4 gap-[1rem] md:gap-[2rem] mt-[2rem]">
         {team.map((item, index) => {
           return (
             <Card

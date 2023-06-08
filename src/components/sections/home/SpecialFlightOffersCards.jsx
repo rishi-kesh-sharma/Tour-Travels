@@ -1,12 +1,10 @@
 import React from "react";
 
 import Card from "../../utils/Card";
-import { bestTourPackagesData, bestTourRoutesData } from "@/data";
+import { bestTourRoutesData } from "@/data";
 import Image from "next/image";
 import Section from "../../utils/Section";
-import { Button, Rate } from "antd";
 import CardImage from "@/components/utils/CardImage";
-import { topDestinationData } from "@/data";
 import CardContent from "@/components/utils/CardContent";
 const LastMinuteDealsCards = () => {
   const dynamicSetting = {
@@ -46,7 +44,7 @@ const LastMinuteDealsCards = () => {
                 <div className="flex gap-[0.3rem] items-center">
                   <span className="text-gray-500 text-sm">From</span>
                   <h2 className="text-semibold text-primary ">${item.cost} </h2>
-                  <span className="text-gray-500 text-sm">|Per Person</span>
+                  <span className="text-gray-500 text-xs">| Per Person</span>
                 </div>
               </CardContent>
             </Card>
@@ -75,7 +73,7 @@ const LastMinuteDealsCards = () => {
                     <h2 className="text-semibold text-secondary">
                       ${item.cost}{" "}
                     </h2>
-                    <span className="text-gray-100 text-sm">| Per Person</span>
+                    <span className="text-gray-100 text-xs">| Per Person</span>
                   </div>
                   <p className="text-gray-100">{item.type}</p>
                 </div>

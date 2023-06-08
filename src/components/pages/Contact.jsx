@@ -9,7 +9,7 @@ const Testimonials = () => {
   return (
     <div className="flex flex-col gap-10">
       <Banner title={"Contact"} breadCrumbs={["Home", "Contact"]} />
-      <Information/>
+      <Information />
       <ContactForm />
       <VideoSection />
       <AwesomePartners />

@@ -1,15 +1,11 @@
-import { bestTourPackagesData, toursSidebarData } from "@/data";
 import React from "react";
 
 import { Button, Checkbox, Input, Rate, Slider } from "antd";
 import Image from "next/image";
 import Section from "@/components/utils/Section";
-import { AiFillTag } from "react-icons/ai";
-import Tab from "./Tab";
-import { BiLike, BiPhone, BiUser } from "react-icons/bi";
-import { MdEmail } from "react-icons/md";
-import Place from "/public/assets/images/places/place1.jpg";
 import { IoLocationOutline } from "react-icons/io5";
+import PriceSummary from "./PriceSummary";
+import Place from "/public/assets/images/places/place1.jpg";
 const onChange = (e) => {
   console.log(`checked = ${e.target.checked}`);
 };
@@ -17,21 +13,21 @@ const onChange = (e) => {
 const Sidebar = () => {
   return (
     <Section className=" hidden  md:grid grid-cols-1  col-span-1 xl:col-span-1 gap-[3rem] ">
-      <div className="grid grid-cols-1 gap-3 border shadow-md p-5 rounded-lg ">
+      <div className="grid grid-cols-1 gap-7 border shadow-md p-5 rounded-lg ">
         <h2 className="text-xl font-semibold">Your Booking Details</h2>
-        <div className="grid grid-cols-2 gap-3 ">
-          <Image src={Place} className="h-full" />
+        <div className="grid grid-cols-1 2xl:grid-cols-2 gap-3 ">
+          <Image src={Place} className="h-full rounded-lg" />
           <div className="flex flex-col gap-2">
             <div className="flex gap-1 text-sm">
               <Rate
                 value={5}
                 allowHalf
                 allowClear={false}
-                className="text-sm"
+                className="text-xs"
               />
               <span className="text-xs text-gray-500">(200 Reviews)</span>
             </div>
-            <h2 className="font-semibold text-lg ">
+            <h2 className="font-semibold  2xl:text-lg ">
               Adriative Adventure Zagreb To Athens
             </h2>
             <div className="flex gap-1 items-center">
@@ -40,13 +36,13 @@ const Sidebar = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-2 items-center gap-3 shadow-md ">
-          <div className=" border flex flex-col gap-1  bg-gray-100 p-4">
+        <div className="grid grid-cols-2 items-center gap-3  ">
+          <div className=" border flex flex-col gap-1  bg-gray-50 p-4 rounded-md">
             <p className=" text-sm text-gray-500">Check in</p>
             <h5 className="font-semibold">Thu 21 Feb 2022</h5>
             <p className="text-xs text-gray-500">15:00 -22:00</p>
           </div>
-          <div className=" border flex flex-col gap-1 bg-gray-100 p-4 ">
+          <div className=" border flex flex-col gap-1 bg-gray-50 p-4 rounded-md ">
             <p className=" text-sm text-gray-500">Check in</p>
             <h5 className="font-semibold">Thu 21 Feb 2022</h5>
             <p className="text-xs text-gray-500">15:00 -22:00</p>
@@ -66,36 +62,11 @@ const Sidebar = () => {
           <p className="text-primary text-xs ">Travelling on diffrent dates?</p>
         </div>
       </div>
-      <div className="shadow-md  bg-white p-4 flex flex-col gap-2">
+      <div className="shadow-md  bg-white p-4 flex flex-col gap-2 rounded-lg">
         <h2 className="font-semibold text-lg">Your Price Summary</h2>
-        <div className=" border border-collapse  p-5 ">
-          <tr className="w-full grid-cols-3">
-            <td className="w-8/12 text-gray-500 grid-cols-2">Superior Twin</td>
-            <td className="text-gray-600 grid-cols-1">$500</td>
-          </tr>
-          <tr className="w-full grid-cols-3">
-            <td className="w-8/12 text-gray-500 grid-cols-2">Superior Twin</td>
-            <td className="text-gray-600 grid-cols-1">$500</td>
-          </tr>
-          <tr className="w-full grid-cols-3">
-            <td className="w-8/12 text-gray-500 grid-cols-2">Superior Twin</td>
-            <td className="text-gray-600 grid-cols-1">$500</td>
-          </tr>
-          <tr className="w-full grid-cols-3">
-            <td className="w-8/12 text-gray-500 grid-cols-2">Superior Twin</td>
-            <td className="text-gray-600 grid-cols-1">$500</td>
-          </tr>
-          <tr className="w-full grid-cols-3">
-            <td className="w-8/12 text-gray-500 grid-cols-2">Superior Twin</td>
-            <td className="text-gray-600 grid-cols-1 bg">$500</td>
-          </tr>
-          <tr className="w-full grid-cols-3">
-            <td className="w-8/12 text-gray-500 grid-cols-2">Superior Twin</td>
-            <td className="text-gray-600 grid-cols-1">$500</td>
-          </tr>
-        </div>
+        <PriceSummary />
       </div>
-      <div className="flex flex-col gap-4 p-4 border shadow-md">
+      <div className="flex flex-col gap-4 p-4 border shadow-md rounded-md">
         <h2 className="font-semibold text-lg">Your Payment Schedule</h2>
         <div className="flex flex-nowrap gap-5 items-center justify-between">
           <p className="text-gray-500 text-sm">
@@ -104,7 +75,7 @@ const Sidebar = () => {
           <p className="text-gray-500 text-sm">$40.00</p>
         </div>
       </div>
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4 shadow-md rounded-md p-8">
         <h2 className="font-semibold text-lg">Do You Have A Promo Code?</h2>
         <Input size="large" />
         <Button

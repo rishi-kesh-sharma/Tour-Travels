@@ -21,8 +21,6 @@ const Hero = () => {
     slidesToShow: 2,
     slidesToScroll: 1,
     initialSlide: 0,
-    // nextArrow: null,
-    // prevArrow: null,
     autoplay: true,
     autoplaySpeed: 4000,
     pauseOnHover: false,
@@ -44,10 +42,10 @@ const Hero = () => {
             impedit!
           </p>
         </Section>
-        <Section className="w-[95%]  mx-auto  md:flex md:flex-wrap lg:grid  bg-white lg:grid-cols-5 lg:h-[200px]  items-center border rounded-xl gap-[1rem] p-[1rem] lg:px-[3rem] justify-items-center md:py-[2rem]">
+        <Section className="w-[95%]  mx-auto  md:flex md:flex-wrap lg:grid  bg-white lg:grid-cols-5 lg:h-[200px] xl:h-[250px]  items-center border rounded-xl gap-[1rem]  p-[1rem] lg:px-[1rem] justify-items-center md:py-[2rem] ">
           {carHeroOptions.map(({ title, options }) => {
             return (
-              <div className="flex flex-col  gap-2  md:gap-[1rem] mb-[1rem] ">
+              <div className="flex flex-col  gap-2  md:gap-[1rem] mb-[0.8rem] ">
                 <p className="text-gray-500">{title}</p>
                 <CustomSelect
                   className="w-full"
@@ -57,11 +55,11 @@ const Hero = () => {
               </div>
             );
           })}
-          <div className="flex flex-col gap-2 mb-[1rem]">
+          <div className="flex flex-col gap-4 mb-[1rem]">
             <p className="text-gray-500">Pick Up</p>
             <CustomDatePicker size="large" />
           </div>
-          <div className="flex flex-col gap-2 mb-[1rem]">
+          <div className="flex flex-col gap-4 mb-[1rem]">
             <p className="text-gray-500">Drop Off</p>
             <CustomDatePicker size="large" />
           </div>

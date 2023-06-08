@@ -5,7 +5,6 @@ import Container from "../utils/Container";
 import Section from "../utils/Section";
 import { useState } from "react";
 import moment from "moment";
-import { useEffect } from "react";
 
 const TimeDisplayer = () => {
   const [time, setTime] = useState([]);

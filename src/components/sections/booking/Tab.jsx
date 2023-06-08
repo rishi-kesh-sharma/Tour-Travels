@@ -1,12 +1,7 @@
 import { Button, Tabs } from "antd";
-// import BookingForm from "./BookingForm";
-// import EnquiryForm from "./EnquiryForm";
 
 const Tab = () => {
-  const items = [
-    // { title: "Booking Form", form: <BookingForm /> },
-    // { title: "Enquiry Form", form: <EnquiryForm /> },
-  ].map((item, index) => ({
+  const items = [].map((item, index) => ({
     label: item.title,
     key: index,
     children: item.form,

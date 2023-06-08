@@ -1,15 +1,11 @@
 import Container from "@/components/utils/Container";
-import Heading from "@/components/utils/Heading";
 import Section from "@/components/utils/Section";
 import React from "react";
-import Video from "./Video";
 import { BsFillPlayCircleFill } from "react-icons/bs";
-const overlay =
-  "https://htmldesigntemplates.com/html/travelin/images/dot-overlay.png";
 
 const VideoSection = () => {
   return (
-    <Section className="relative    mt-[3rem] bg-[url(https://htmldesigntemplates.com/html/travelin/images/bg/bg1.jpg)] bg-cover bg-no-repeat ">
+    <Section className="relative     bg-[url(https://htmldesigntemplates.com/html/travelin/images/bg/bg1.jpg)] bg-cover bg-no-repeat ">
       <div className="absolute top-0 bottom-0 left-0 right-0 bg-black opacity-30 "></div>
       <Container className="py-[3rem] flex flex-col items-center justify-center h-[80vh] max-h-[800px]  gap-[3rem] my-0">
         <div className="relative z-40">
@@ -41,9 +37,3 @@ const VideoSection = () => {
 };
 
 export default VideoSection;
-
-// background-repeat: no-repeat;
-// background-size: cover;
-// position: relative;
-// overflow: hidden;
-// z-index: 2;

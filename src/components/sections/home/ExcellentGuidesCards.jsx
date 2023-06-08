@@ -5,7 +5,7 @@ import CostumSlider from "../../utils/CustomSlider";
 import { guidesData } from "@/data";
 import Image from "next/image";
 import Section from "../../utils/Section";
-import Container from "../../utils/Container";
+
 const ExcellentGuidesCards = () => {
   const dynamicSetting = {
     dots: false,

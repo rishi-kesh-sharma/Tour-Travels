@@ -8,7 +8,7 @@ import Image2 from "/public/assets/images/places/place1.jpg";
 const ServiceDetail = () => {
   return (
     <Section className="rounded-lg  grid grid-cols-1 col-span-1 lg:grid-cols-2 xl:grid-cols-3 gap-[1rem] md:gap-[2rem]  lg:col-span-2  overflow-hidden">
-      <Section className="lg:col-span-full flex flex-col gaServicep-[1rem]  ">
+      <Section className="lg:col-span-full flex flex-col gap-[1rem]  ">
         <h1 className="text-xl md:text-3xl font-semibold">
           Share Your Travel Locations
         </h1>
@@ -36,7 +36,7 @@ const ServiceDetail = () => {
             elit. Alias, dolorum cumque. Officiis amet deleniti ab rem, aperiam
             magnam id ipsam.
           </p>
-          <div className="grid grid-cols-2 gap-5">
+          <div className="grid lg:grid-cols-2 gap-5">
             <Image src={Image1} className="rounded-md h-full object-cover" />
             <Image src={Image2} className="rounded-md h-full object-cover" />
           </div>

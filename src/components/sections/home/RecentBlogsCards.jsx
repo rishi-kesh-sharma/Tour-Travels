@@ -4,7 +4,6 @@ import Card from "../../utils/Card";
 import { bestTourPackagesData, blogsData } from "@/data";
 import Image from "next/image";
 import Section from "../../utils/Section";
-import Container from "../../utils/Container";
 import { Button, Rate } from "antd";
 import CardImage from "@/components/utils/CardImage";
 import CustomSlider from "../../utils/CustomSlider";

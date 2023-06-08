@@ -1,11 +1,6 @@
-import Container from "@/components/utils/Container";
-import Heading from "@/components/utils/Heading";
 import Section from "@/components/utils/Section";
 import React from "react";
-// import Video from "./Video";
 import { BsFillPlayCircleFill } from "react-icons/bs";
-const overlay =
-  "https://htmldesigntemplates.com/html/travelin/images/dot-overlay.png";
 
 const VideoSection = () => {
   return (

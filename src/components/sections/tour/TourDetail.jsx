@@ -1,20 +1,14 @@
 import React from "react";
 
-import Card from "../../utils/Card";
-import { bestTourPackagesData } from "@/data";
 import Image from "next/image";
 import Section from "../../utils/Section";
-import { Button, Rate, Select } from "antd";
-import CardImage from "@/components/utils/CardImage";
-import CardContent from "@/components/utils/CardContent";
-import { BsArrowRight, BsFillGrid3X3GapFill } from "react-icons/bs";
+import { Rate } from "antd";
 import { BiTimeFive, BiWifi } from "react-icons/bi";
 import { FaUsers } from "react-icons/fa";
 import { CiCalendar } from "react-icons/ci";
 import TourImage from "/public/assets/images/tours/tour.jpg";
 import Itinerary from "./Itinerary";
 import FAQ from "./FAQ";
-import RelatedTours from "./RelatedTours";
 const ToursList = () => {
   const itineraryData = [
     {
@@ -161,7 +155,7 @@ const ToursList = () => {
           <Itinerary faqs={itineraryData} />
         </div>
         <div>
-          <h1 className="text-lg font-semibold mb-[1rem]">FAQ</h1>
+          <h1 className="text-lg font-semibold my-[1rem] ">FAQ</h1>
           <FAQ faqs={itineraryData} />
         </div>
       </Section>

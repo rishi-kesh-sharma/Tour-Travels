@@ -2,7 +2,6 @@ import React from "react";
 
 import Card from "../../utils/Card";
 import Image from "next/image";
-import Section from "../../utils/Section";
 import { Rate } from "antd";
 import CardImage from "@/components/utils/CardImage";
 import CardContent from "@/components/utils/CardContent";
@@ -24,7 +23,7 @@ const RelatedTours = ({ tours }) => {
             <p className="text-sm text-gray-400">{item.description}</p>
             <div className="flex gap-[0.3rem] items-center">
               <h2 className=" text-primary font-semibold">${item.cost} </h2>
-              <span className="text-gray-500 text-sm">|Per Person</span>
+              <span className="text-gray-500 text-xs">| Per Person</span>
             </div>
           </CardContent>
         </Card>

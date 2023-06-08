@@ -11,7 +11,7 @@ import AwesomePartners from "../sections/home/AwesomePartners";
 const Blog = () => {
   const blog = blogsData[0];
   return (
-    <Section className="mt-[4rem] overflow-hidden w-full">
+    <Section className=" overflow-hidden w-full">
       <Banner title={"Blogs List"} breadCrumbs={["Home", "Blog"]} />
       <Container className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-[3rem] mt-[3rem] overflow-hidden">
         <Section className="gap-[1rem] col-span-full grid grid-cols-1 md:grid-cols-2  ">
